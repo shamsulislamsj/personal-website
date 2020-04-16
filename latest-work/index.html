@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        h1{
+            font-size: 50px;
+            margin: 0px;
+        }
+        h2{
+            font-size: 40px;
+        }
+        p{
+            color: dimgray;
+        }
+        .half-width{
+                    width: 40%;
+                    float: left;
+                   margin-left: 5%;
+                   padding-left: 2%;
+        }
+       .half-width img{
+                     width: 100%;
+        }
+        .orange-highlight{
+            color:#C71585;
+        }
+        .top-banner{
+            background-image: url("F:/Web develpment/projects/personal-website/images/header-bg.png");
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        section{
+            height: 500px;
+            padding-bottom: 150px;
+            }
+            .link-button{
+            text-decoration: none;
+            background-color: purple;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: white;
+            font-weight: 700;
+        }
+
+        .bio-grapy{
+            background-image: url("F:/Web develpment/projects/personal-website/images/biography-bg.png");
+            background-repeat: no-repeat;
+        }
+        .container{
+            background-image: url("F:/Web develpment/projects/personal-website/images/latest-work-bg.png");
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+        .what-cilent{
+            background-image: url("F:/Web develpment/projects/personal-website/images/footer-bg.png");
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        .border{
+            border-style: none;
+            background-color: rgb(255, 8, 152);
+            border-width: 700;
+            padding: 30px 20px;
+            margin-left: 25%;
+            margin-right: 30%;
+            border-radius: 10px;
+            color: white;
+
+        }
+
+        * {
+  box-sizing: border-box;
+}
+
+    .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+           }
+
+   .row::after {
+           content: "";
+           clear: both;
+           display: table;
+           }
+   .container{
+           margin: 100px;
+           }
+
+
+    </style>
+</head>
+<body>
+
+    <section class="top-banner">
+        <div class="half-width">
+            <br>
+            <br>
+            <h2>Hello I'am</h2>
+            <h1 class="orange-highlight">SJ SHAMSUL</h1>
+            <p>I am determined.I am hard working.I can do anything.I am becoming a web developer. I must do it.I will do it</p>
+            <a class="link-button" target="-blank" href="https://web.facebook.com/">HERE ME</a>
+        </div>
+        <div class="half-width">
+            <img src="F:\Web develpment\projects\personal-website\images\image 10 (2).png" alt="">
+        </div>
+    </section>
+
+    <section class="bio-grapy" >
+        <div class="half-width" >
+            <img src="F:\Web develpment\projects\personal-website\images\image 18.png" alt="">
+        </div>
+        
+        <div class="half-width" >
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Biograpy</h1>
+            <p>I all ready learned the basic HTML and CSS.I can build any simple website.I am learning and mastering web development.I will not stop untill I beacome the Web Development her</p>
+            <a class="link-button" target="-blank" href="">Download CV</a>
+        </div>
+    </section>
+
+
+
+    <h3 style="text-align: center;">My Latest Work </h3>
+
+    <section class="container">
+        <div class="row">
+            <div class="column">
+              <img src="F:\Web develpment\projects\personal-website\images\work-1.png" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="F:\Web develpment\projects\personal-website\images\work-2.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="F:\Web develpment\projects\personal-website\images\work-3.jpg" alt="Mountains" style="width:100%">
+            </div>
+          </div>
+          
+
+    </section>
+
+     <h2 style="text-align: center;">What Client are you say</h2>
+    <section class="what-cilent" >
+        <div>
+            <h3 style="text-align: center;">Bruce Moccy</h3>
+            <p style="text-align: center;">founder & CEO Alies</p>
+        </div>
+        <div>
+            <h3 style="text-align: center;">"lorem Ipsum is dumhmy text of the</h3> 
+            <h3 style="text-align: center;">printing and typesetting industy lorem ipsum"</h3>
+        </div>
+        <br>
+        <div class="border">
+            <h4 style="text-align: center;" >leave me a message in the</h4>
+            <h2 style="text-align: center;">programming.hero12gmail.com</h2>
+
+        </div>
+        
+    </section>
+
+    <section  >
+        
+   <footer  >
+    <p style="text-align: center;"> programming hero initiative all right reserved</p>
+
+
+</footer>
+
+    </section>
+
+</body>
+</html>
